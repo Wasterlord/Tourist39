@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap')
+
+*
+  font-family: 'Rubik', sans-serif
+
+@mixin nav_font
+  font-family: Rubik
+  font-size: 18px
+  font-weight: 300
+  line-height: 22px
+  letter-spacing: -0.01em
+  text-align: left
+
+@mixin h1
+  font-family: Rubik
+  font-size: 32px
+  font-style: normal
+  font-weight: 500
+  line-height: 45px
+  letter-spacing: 0em
+@mixin h2
+  font-family: Rubik
+  font-size: 32px
+  font-style: normal
+  font-weight: 400
+  line-height: 45px
+  letter-spacing: 0em
+
+@mixin h4
+  font-family: Rubik
+  font-size: 20px
+  font-style: normal
+  font-weight: 500
+  line-height: 32px
+  letter-spacing: 0em
+
+@mixin h3
+  font-family: Rubik
+  font-size: 24px
+  font-style: normal
+  font-weight: 500
+  line-height: 33.6px
+  letter-spacing: 0em
+
+@mixin regular
+  font-family: Rubik
+  font-size: 16px
+  font-style: normal
+  font-weight: 300
+  line-height: 26px
+  letter-spacing: 0em
+
+@mixin body
+  font-family: Rubik
+  font-size: 18px
+  font-style: normal
+  font-weight: 400
+  line-height: 28.8px
+  letter-spacing: 0em
+@mixin mega_text
+  font-size: 100px
+  font-style: normal
+  font-weight: 700
+  line-height: 120px
+  letter-spacing: 0em
+
+@mixin very_big_text
+  font-family: Rubik
+  font-size: 96px
+  font-style: normal
+  font-weight: 400
+  line-height: 134px
+  letter-spacing: 0.06em
+  text-align: left
+
+div
+  include regular
+
+h1
+  @include h1
+
+h4
+  @include h4
+h2
+  @include h2
+
+h3
+  @include h3
+
+.text_body
+  @include body
+.mega_text
+  @include mega_text
+.very_big_text
+  @include very_big_text
+  color: #008968

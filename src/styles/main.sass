@@ -1,0 +1,207 @@
+@import 'project/colors'
+@import 'project/typography'
+@import 'project/shadows'
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap')
+
+.section_1
+  background-color: $bg1
+
+  .nav-item
+    padding-right: 60px
+
+    a
+      @include nav_font
+      color: $font_1
+
+      &.active
+          color: $font_main
+          font-weight: 400
+
+.section_2
+  background-color: $bg1
+  .left
+    div.row
+      &:first-child
+        padding-bottom: 40px
+
+      &:nth-child(2n)
+        padding-bottom: 14px
+.body_section
+  padding-top: 97px
+  .body_section_1
+
+    .container
+      background-image: url(../assets/undraw_city_life_gnpr1.png)
+      min-height: 521px
+      background-size: contain
+      background-repeat: no-repeat
+      .describe
+        padding-bottom: 72px
+        .text_body
+          color: $font_1
+
+
+        span
+          color: $primary
+
+    .whats_app_card.card
+      border: none
+      background-color: $white
+      padding: 16px
+      width: 25%
+      margin-right: 30px
+      box-shadow: $ls
+      &:last-child
+        margin-right: 0
+
+      div
+        div
+          div
+            &:nth-child(1n)
+              padding-bottom: 8px
+              color: $font_main
+            &:nth-child(2n)
+              padding-bottom: 4px
+              color: $font_main
+
+      .text
+        font-size: 16px
+        font-weight: 300
+
+
+
+
+    .whats_app
+      padding-bottom: 32px
+  .body_section_2
+    .list-group-item
+      border: none
+      padding: 0 0 44px 0
+      .card
+        border: none
+        div
+          div
+            div
+              &:nth-child(1n)
+                padding-bottom: 8px
+              &:nth-child(2n)
+                padding-bottom: 7px
+        .text_body
+          color: $font_1
+  .body_section_3
+    .block_other
+      margin-top: 73px
+      margin-bottom: 160px
+      img
+        margin-right: 16px
+      .second_row
+        margin-top: 48px
+  .body_section_4
+    h2
+      margin-bottom: 40px
+    .text_body
+      color: $font_1
+  .body_section_5
+    margin-top: 80px
+    margin-bottom: 150px
+    .card
+      padding: 0
+      border: none
+      *
+        &:nth-child(2n)
+          margin-bottom: 7px
+
+    .mega_text
+      color: $primary
+  .body_section_6
+    padding-bottom: 120px
+    .text_body
+      color: $font_1
+      margin-top: 12px
+  .body_section_7
+    background-color: $bg2
+    padding: 56px 0 56px 0
+    h4
+      color: $font_1
+    .col-8
+      .row
+        &:nth-child(2n)
+          padding-top: 14px
+
+.section_4
+  background-color: $primary
+  padding: 80px 0 58px 0
+  *
+    color: $white
+  .row
+    &:nth-child(1n)
+      margin-top: 73px
+      h3
+        margin-top: 35px
+      div.text_body
+        margin-top: 12px
+        color:  rgba($white, 0.80)
+.section_5
+  padding-top: 80px
+  .text_body
+    color: $font_1
+  .row
+    &:nth-child(2n)
+      margin-top: 32px
+    &:nth-child(3n)
+      margin-top: 100px
+
+    &:nth-child(4n)
+      margin-top: 70px
+    &:nth-child(5n)
+      margin-top: 70px
+  .card
+    padding: 0
+    border: none
+    *
+      &:nth-child(2n)
+        margin-bottom: 7px
+
+    .mega_text
+      color: $primary
+  .datacrm_card
+    box-shadow: $ls
+    padding: 16px
+    img
+      margin-right: 24px
+.section_6
+  padding-top: 160px
+  h3
+    color: $font_dark
+  .text_body
+    color: $font_1
+  .row
+    &:nth-child(1n)
+      margin-bottom: 20px
+      span
+        color: $primary
+    &:nth-child(6n)
+      margin-bottom: 36px
+  .primary-text
+    color: $primary
+
+
+.section_8
+  .right
+    *
+      &:nth-child(1n)
+        margin-bottom: 5px
+      &:nth-child(2n)
+        margin-bottom: 25px
+.btn-primary
+  background-color: $primary !important
+  padding: 13px 31px !important
+  font-size: 18px !important
+
+footer
+  padding: 49px 0 49px 0
+  .buttons_row
+    margin-top: 25px
+  .text_body
+    color: $font_1
